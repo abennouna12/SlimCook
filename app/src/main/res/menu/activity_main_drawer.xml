@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_whois"
+            android:icon="@drawable/ic_people"
+            android:title="Qui sommes nous ?" />
+        <item
+            android:id="@+id/nav_bienfaits"
+            android:icon="@drawable/ic_thumb_up"
+            android:title="Bienfaits SlimCook" />
+        <item
+            android:id="@+id/nav_products"
+            android:icon="@drawable/ic_food"
+            android:title="Produits" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_star"
+            android:title="Nouveautés" />
+        <item
+            android:id="@+id/nav_panier"
+            android:icon="@drawable/ic_cart"
+            android:title="Panier" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_phone"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_connexion"
+            android:icon="@drawable/ic_user"
+            android:title="Connexion" />
+    </group>
+
+</menu>
